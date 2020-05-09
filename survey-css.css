@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+#main {
+	background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+	font-family: 'Poppins', sans-serif;
+	background-position: center;
+	background-size: 100% auto;
+	background-attachment: fixed;
+	background-repeat: no-repeat; 
+	color: white;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	border: 0 0 0 0;
+	font-size: 0.9em;
+	vertical-align: middle;
+}
+
+#surcouche {
+	background-color: rgba(117, 117, 189, 0.8);
+	background-position: auto;
+	
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 22px 0 0 0;
+	margin: 0 0 0 0;
+	border: 0 0 0 0;
+}
+
+
+header {
+	text-align: center;
+	justify-content: center;
+	margin: 0 0 0 0;
+	
+}
+
+.form-box {
+	width: 95%;
+	height: 2em;
+	border-radius: 3px;
+	box-shadow: 0;
+	border: none;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+#description {
+	font-style: italic;
+}
+
+#survey-bloc {
+	display: block;
+	margin: auto;
+	padding: 42px 42px 42px 42px;
+	min-width: 390px;
+	width: 46%;
+	max-width: 490px;
+	justify-content: center;
+	text-align: left;
+	background-color: rgba(43, 46, 77, 0.8);
+	border-radius: 3px;
+}
+
+
+select {
+  color: grey;
+}
+option:not(:first-of-type) {
+  color: black;
+}
+
+.smaller-inline {
+	font-size: 0.85em;
+
+}
+
+#submit {
+	width: 95%;
+	height: 2em;
+	color: white;
+	background-color: rgb(55, 175, 101);
+	border: none;
+}
+
+#comment-box {
+	width: 95%;
+	height: 6em;
+}
+
+.checkbox {
+	border: none;
+	width: 18px; 
+    height: 18px; 
+    vertical-align: middle;
+    border-radius: 0;
+    margin-right: 6px;
+}
