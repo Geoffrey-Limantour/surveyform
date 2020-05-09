@@ -11,12 +11,12 @@
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
 	border: 0 0 0 0;
-	font-size: 0.9em;
+	font-size: 1.1em;
 	vertical-align: middle;
 }
 
 #surcouche {
-	background-color: rgba(117, 117, 189, 0.8);
+	background-color: rgba(58, 58, 158, 0.7);
 	background-position: auto;
 	
 	background-attachment: fixed;
@@ -42,6 +42,18 @@ header {
 	border: none;
 	margin-top: 5px;
 	margin-bottom: 15px;
+	padding: 2px 2px 2px 15px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.9em;
+	border: 1px solid rgba(211, 211, 211, 0.863);
+}
+
+.form-box:focus {
+	border-color: #80bdff;
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25)
+	
+	
 }
 
 #description {
@@ -54,7 +66,7 @@ header {
 	padding: 42px 42px 42px 42px;
 	min-width: 390px;
 	width: 46%;
-	max-width: 490px;
+	max-width: 640px;
 	justify-content: center;
 	text-align: left;
 	background-color: rgba(43, 46, 77, 0.8);
@@ -76,15 +88,22 @@ option:not(:first-of-type) {
 
 #submit {
 	width: 95%;
-	height: 2em;
+	height: auto;
 	color: white;
 	background-color: rgb(55, 175, 101);
 	border: none;
+	font-family: 'Poppins', sans-serif;
+	padding: 0.8em;
+	font-size: 0.9em;
+	border-radius: 3px;
 }
 
 #comment-box {
 	width: 95%;
 	height: 6em;
+	padding: 2px 2px 2px 15px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.9em;
 }
 
 .checkbox {
