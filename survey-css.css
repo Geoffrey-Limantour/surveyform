@@ -4,7 +4,7 @@
 	background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
 	font-family: 'Poppins', sans-serif;
 	background-position: center;
-	background-size: 100% auto;
+	background-size: 100% auto auto;
 	background-attachment: fixed;
 	background-repeat: no-repeat; 
 	color: white;
@@ -16,7 +16,7 @@
 }
 
 #surcouche {
-	background-color: rgba(58, 58, 158, 0.7);
+	background-color: rgba(79, 79, 161, 0.7);
 	background-position: auto;
 	
 	background-attachment: fixed;
@@ -63,13 +63,13 @@ header {
 #survey-bloc {
 	display: block;
 	margin: auto;
-	padding: 42px 42px 42px 42px;
+	padding: 42px 42px 60px 42px;
 	min-width: 390px;
 	width: 46%;
-	max-width: 640px;
+	max-width: 630px;
 	justify-content: center;
 	text-align: left;
-	background-color: rgba(43, 46, 77, 0.8);
+	background-color: rgba(30, 28, 46, 0.8);
 	border-radius: 3px;
 }
 
@@ -87,13 +87,13 @@ option:not(:first-of-type) {
 }
 
 #submit {
-	width: 95%;
+	width: 98%;
 	height: auto;
 	color: white;
 	background-color: rgb(55, 175, 101);
 	border: none;
 	font-family: 'Poppins', sans-serif;
-	padding: 0.8em;
+	padding: 0.7em;
 	font-size: 0.9em;
 	border-radius: 3px;
 }
@@ -113,4 +113,8 @@ option:not(:first-of-type) {
     vertical-align: middle;
     border-radius: 0;
     margin-right: 6px;
+}
+
+#dropdown {
+	width: 98%;
 }
